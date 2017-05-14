@@ -4,6 +4,101 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a1691578.netflix.download">
+    tools:context="com.example.a1691578.netflix.MainActivity"
+    >
 
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#1B201A"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="65dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="12dp"
+
+                app:srcCompat="@drawable/image30" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="53dp"
+                android:paddingTop="8dp"
+
+                android:text="My Downloads"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.84"
+            android:background="#181A18"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="150dp"
+                android:layout_height="186dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/image31" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="70dp"
+                android:text="Movies and TV Shows that you download"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="160dp"
+                android:text="appear here."
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:text="FIND SOMETHING TO DOWNLOAD"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
