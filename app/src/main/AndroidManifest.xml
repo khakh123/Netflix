@@ -16,8 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:name=".Users" />
-        <activity android:exported="true" android:name=".Sidebar"></activity>
+        <activity
+            android:name=".Users"
+            android:exported="true" />
+        <activity
+            android:name=".Sidebar"
+            android:exported="true" />
+        <activity
+            android:name=".tvshows"
+            android:exported="true" />
+        <activity android:name=".download"></activity>
     </application>
 
 </manifest>
