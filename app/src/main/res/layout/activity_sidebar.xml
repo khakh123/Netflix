@@ -32,10 +32,12 @@
                 app:srcCompat="@drawable/userpic" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/use"
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
                 android:layout_weight="1.35"
+                android:clickable="true"
+                android:onClick="manjot"
                 android:paddingTop="20dp"
                 android:text="Gurdeep" />
 
@@ -76,10 +78,11 @@
                         app:srcCompat="@drawable/bell" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/noti"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="mainclick"
                         android:paddingTop="10dp"
                         android:text="Notifications"
                         android:textSize="18sp" />
