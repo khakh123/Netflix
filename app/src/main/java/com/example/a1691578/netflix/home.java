@@ -12,7 +12,7 @@ public class home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
     }
-    public void mainClick(View view) {
+    public void sidebar(View view) {
         Intent intent = new Intent(this, Sidebar.class);
         startActivity(intent);
     }

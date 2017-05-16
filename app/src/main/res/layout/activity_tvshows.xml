@@ -37,7 +37,8 @@
                 android:layout_height="19dp"
                 android:layout_marginTop="10dp"
 
-                app:srcCompat="@drawable/homebutton" />
+                app:srcCompat="@drawable/homebutton"
+                android:onClick="sidebar"/>
 
             <TextView
                 android:id="@+id/textView12"

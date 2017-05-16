@@ -11,9 +11,18 @@ public class Sidebar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sidebar);
     }
-
+    public void home(View view) {
+        Intent intent = new Intent(this, home.class);
+        startActivity(intent);
+    }
     public void manjot(View view) {
         Intent intent = new Intent(this, Users.class);
         startActivity(intent);
     }
+    public void downloads(View view) {
+        Intent intent = new Intent(this, download.class);
+        startActivity(intent);
 }
+    public void tvshows(View view) {
+        Intent intent = new Intent(this, tvshows.class);
+        startActivity(intent);}}

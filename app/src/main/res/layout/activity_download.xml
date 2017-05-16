@@ -34,9 +34,9 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="65dp"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:layout_marginTop="12dp"
-
+                android:onClick="back"
                 app:srcCompat="@drawable/image30" />
 
             <TextView
@@ -44,12 +44,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:paddingLeft="53dp"
+                android:paddingLeft="50dp"
                 android:paddingTop="8dp"
 
                 android:text="My Downloads"
                 android:textColor="@android:color/white"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
 
         </LinearLayout>
@@ -63,9 +63,9 @@
 
             <ImageView
                 android:id="@+id/imageView12"
-                android:layout_width="150dp"
+                android:layout_width="167dp"
                 android:layout_height="186dp"
-                android:layout_marginLeft="120dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="30dp"
                 app:srcCompat="@drawable/image31" />
 
@@ -73,7 +73,7 @@
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="70dp"
+                android:textAlignment="center"
                 android:text="Movies and TV Shows that you download"
                 android:textColor="@android:color/white"
                 android:textSize="16dp" />
@@ -82,8 +82,9 @@
                 android:id="@+id/textView184"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="160dp"
+
                 android:text="appear here."
+                android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="16dp" />
 
@@ -92,7 +93,7 @@
                 android:layout_width="262dp"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/white"
-                android:layout_marginLeft="80dp"
+                android:layout_marginLeft="55dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button"
                 android:text="FIND SOMETHING TO DOWNLOAD"
