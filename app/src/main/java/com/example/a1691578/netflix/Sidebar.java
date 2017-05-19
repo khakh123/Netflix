@@ -25,4 +25,8 @@ public class Sidebar extends AppCompatActivity {
 }
     public void tvshows(View view) {
         Intent intent = new Intent(this, tvshows.class);
+        startActivity(intent);
+    }
+    public void notification(View view) {
+        Intent intent = new Intent(this, notification.class);
         startActivity(intent);}}

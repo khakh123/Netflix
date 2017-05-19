@@ -25,7 +25,11 @@
         <activity
             android:name=".tvshows"
             android:exported="true" />
-        <activity android:exported="true" android:name=".download"></activity>
+        <activity
+            android:name=".download"
+            android:exported="true" />
+        <activity android:name=".notification"
+            android:exported="true" />
     </application>
 
 </manifest>

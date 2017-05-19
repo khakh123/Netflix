@@ -76,15 +76,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.24"
+                        android:onClick="notification"
+                        android:paddingTop="5dp"
                         app:srcCompat="@drawable/bell" />
 
                     <TextView
                         android:id="@+id/noti"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="0dp"
                         android:layout_weight="1"
-                        android:onClick="mainclick"
-                        android:paddingTop="10dp"
+                        android:clickable="false"
+                        android:onClick="notification"
+                        android:paddingTop="0dp"
                         android:text="Notifications"
                         android:textSize="18sp" />
 
@@ -110,6 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.29"
+                        android:paddingTop="5dp"
                         app:srcCompat="@drawable/downld" />
 
                     <TextView
@@ -117,10 +122,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingTop="10dp"
+                        android:onClick="downloads"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
                         android:text="Downloads"
-                        android:textSize="18sp"
-                        android:onClick="downloads"/>
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/textView7"
